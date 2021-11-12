@@ -7,7 +7,7 @@ import plotly_express as px
 import matplotlib.pyplot as plt
 
 #TRATAMENTO DOS DADOS
-tabela = pd.read_csv(r'C:/Users/PC/Desktop/Estudo e Escola/Programmer Projects/Python (Pycharm)/Projects/tabela_de_dados.csv')
+tabela = pd.read_csv(r'/Projects/Intensivão de Python/tabela_de_dados.csv')
 tabela = tabela.drop('Codigo', axis = 1)
 tabela = tabela.dropna(how='any', axis = 0)
 #VISUALIZAÇÃO DO GRÁFICO DA TABELA
