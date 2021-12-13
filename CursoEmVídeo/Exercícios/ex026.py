@@ -5,4 +5,3 @@ print('A quantidade de letras "a" que aparecem na frase é: {0}'.format(frase.co
 print('A posição da primeira letra "a" nessa frase é: {0}'.format(frase.find('a')+1))
 print('A posição da última letra "a" nessa frase é: {0}'.format(frase.rfind('a')+1))
 
-
