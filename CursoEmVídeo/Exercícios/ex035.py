@@ -1,4 +1,4 @@
-#Irá analisar 3 retas e dizer se é possível formar um triângulo.
+#Possibilidade de formar um triângulo
 
 s1 = float(input('Informe a primeira reta: '))
 s2 = float(input('Informe a segunda reta: '))
