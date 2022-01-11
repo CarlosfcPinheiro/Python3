@@ -1,5 +1,5 @@
 #Pedra, papel e tesoura
-
+from time import sleep
 from random import choice
 print('\033[0;34m   '+'=-'*20+'=')
 print('    '+'{:^40}'.format('|JOKENPÔ|'))
@@ -11,6 +11,11 @@ move = int(input('''Dentre as três escolhas, digite de acordo com o respectivo 
 Esolha: ''').strip())
 possibilities = ['PEDRA', 'PAPEL', 'TESOURA']
 movepc = choice(possibilities)
+print('JO')
+sleep(0.5)
+print('KEN')
+sleep(0.5)
+print('PÔ!!!!!')
 #SITUAÇÃO DE EMPATE GERAL
 if (move == 1) and (movepc == 'PEDRA'):
     print('''(Sua escolha X Escolha da máquina)
@@ -47,7 +52,7 @@ elif (move == 3) and (movepc == 'PAPEL'):
     print('''(Sua escolha X Escolha da máquina)
         \033[0;34m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\033[0m
                        \033[0;31mTESOURA\033[0m x \033[0;32mPAPEL\033[0m 
-        \033[0;34=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\033[0m
+        \033[0;34m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\033[0m
 Tesoura vence de papel, portanto VOCÊ GANHOU!''')
 #SITUAÇÕES DE DERROTA DO PLAYER
 elif (move == 1) and (movepc == 'PAPEL'):
