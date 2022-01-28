@@ -1,6 +1,5 @@
 #Maior e Menor peso
 
-
 larger = 0
 smaller = 0
 for c in range(1, 6):

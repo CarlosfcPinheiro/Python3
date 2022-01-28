@@ -1,7 +1,7 @@
 #Pedra, papel e tesoura
 from time import sleep
 from random import choice
-print('\033[0;34m   '+'=-'*20+'=')
+print('\033[0;34m    '+'=-'*20+'=')
 print('    '+'{:^40}'.format('|JOKENPÔ|'))
 print('    '+'=-'*20+'=\033[0m')
 move = int(input('''Dentre as três escolhas, digite de acordo com o respectivo número

@@ -1,4 +1,5 @@
 #IRÁ COLETAR DADOS ATUAIS SOBRE O EURO, OURO E O DOLAR, ATUALIZAR A PLANILHA E ENVIAR APRA SI MESMO NO EMAIL
+
 from selenium import webdriver
 import pyautogui as py
 import time as tm

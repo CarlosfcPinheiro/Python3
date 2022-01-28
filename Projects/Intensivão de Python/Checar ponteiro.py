@@ -1,4 +1,5 @@
-#Esse programa vai checar as coordenadas do seu ponteiro na tela
+#ESSE PROGRAMA VAI CHECAR AS COORDENADAS X E Y DO PONTEIRO
+
 import pyautogui as py
 import time as t
 

@@ -1,4 +1,5 @@
 #Grupo de Maioridade
+
 from datetime import date
 
 ofage = 0
