@@ -19,10 +19,10 @@ if anwser == 'S':
         while num != rand:
             attemps += 1
             if rand > num:
-                print('O número em que pensei é maior do que esse :P\n')
+                print('\033[0;31mO número em que pensei é maior do que esse :P\033[0m\n')
                 num = int(input('Tente acertar novamente >:) : '))
             elif num > rand:
-                print('O número em que pensei é menor do que esse :P\n')
+                print('\033[0;34mO número em que pensei é menor do que esse :P\033[0m\n')
                 num = int(input('Tente acertar novamente >:) : '))
 elif anwser == 'N':
     print('Que pena, podemos jogar outra hora :(')
@@ -33,7 +33,7 @@ else:
 print('\033[0;32mPARABÉNS! Você conseguiu acertar!\033[0m\n')
 print('carregando estatísticas...\n')
 sleep(3)
-print('NÚMERO DE ACERTO: {0}'.format(rand))
-print('NÚMERO DE TENTATIVAS: {0}'.format(attemps))
+print('NÚMERO DE ACERTO: \033[0;34m{0}\033[0m'.format(rand))
+print('NÚMERO DE TENTATIVAS: \033[0;33m{0}\033[0m'.format(attemps))
 
 
