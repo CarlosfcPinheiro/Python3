@@ -7,4 +7,5 @@ for c in range(0, num):
     for i in name:
         print(i)
     print("\n")
+    
 print("Acabou :)")

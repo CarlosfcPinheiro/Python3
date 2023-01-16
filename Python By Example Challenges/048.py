@@ -2,6 +2,7 @@
 
 count = 0
 resp = "S"
+
 while ("S" in resp):
     name = str(input("Digite o nome da pessoa que você quer convidar: ")).capitalize()
     print(f"{name} foi convidado(a)!\n")

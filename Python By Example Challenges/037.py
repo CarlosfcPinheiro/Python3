@@ -2,6 +2,7 @@
 
 name = str(input('Digite seu nome: ').strip())
 letters = 0
+
 for i in name:
     letters += 1
 

@@ -1,6 +1,7 @@
 #Green bottles song
 
 bottles = 10
+
 while (bottles != 0):
     print(f"""\n 
     Há {bottles} garrafas verdes apoiadas na parede,
@@ -11,6 +12,7 @@ while (bottles != 0):
 
     if (resp == bottles):
         print("Isso! Você acertou...")
+
     else:
         while (resp != bottles):
             print("\nVocê errou, tente novamente :(")

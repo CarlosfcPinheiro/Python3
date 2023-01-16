@@ -11,9 +11,11 @@ while ("S" in resp):
     if ("S" in resp):
         num = int(input("Digite um número: "))
         total += num
+        
     elif ("N" in resp):
         print(f"Seu total: {total}")
         break
+
     else:
         print("\nNão entendi.")
 

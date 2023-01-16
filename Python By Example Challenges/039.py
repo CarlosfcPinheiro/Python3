@@ -9,4 +9,5 @@ if (num > 12) or (num < 1):
 else:
     for c in range(1, 13):
         print(f"{c} x {num} = {c*num}")
+        
     print("\nAcabou :)")
