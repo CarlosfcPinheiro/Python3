@@ -13,6 +13,7 @@ for c in range(0, 5):
         print("Resposta inválida. Será tomada como sim.")
         total += num
     print("")
+    
 print(f"\nEsse é o seu total: {total}")
 
 

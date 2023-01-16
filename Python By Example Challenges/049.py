@@ -9,6 +9,5 @@ while (value != num):
         print("Esse número é mais alto")
 
     elif (num < 50):
-        print("Esse número é mais baixo")
-        
+        print("Esse número é mais baixo")     
 print("Parabéns você acertou :)")

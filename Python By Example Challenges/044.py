@@ -6,6 +6,5 @@ if (peop <= 10):
         name = str(input("Digite o nome da pessoa: ").strip())
         print(f"{name} foi convidado(a)!\n")
     print("Você chamou todas as pessoas :)")
-
 else:
     print("Muitas pessoas x_x")

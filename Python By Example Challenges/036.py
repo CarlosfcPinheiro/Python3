@@ -7,5 +7,4 @@ print('\nSeu nome:')
 
 for i in range(0, num):
     print(name)
-
 print('\nAcabou :)')

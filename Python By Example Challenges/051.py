@@ -12,7 +12,7 @@ while (bottles != 0):
 
     if (resp == bottles):
         print("Isso! Você acertou...")
-
+        
     else:
         while (resp != bottles):
             print("\nVocê errou, tente novamente :(")

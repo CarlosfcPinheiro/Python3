@@ -9,5 +9,4 @@ while ("S" in resp):
     count += 1
 
     resp = str(input("Diga se você quer adicionar mais alguém [S=sim/N=não]: ").strip().upper())
-
 print(f"Você chamou: {count} pessoas :)")

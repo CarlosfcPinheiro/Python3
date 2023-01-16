@@ -6,9 +6,8 @@ num = int(input("Agora digite um número menor que 10: "))
 if (num <= 10):
     for c in range(0, num):
         print(name)
-        
-    print("\nAcabou :)")
 
+    print("\nAcabou :)")
 else:
     print("")
     for c in range(0, 3):
