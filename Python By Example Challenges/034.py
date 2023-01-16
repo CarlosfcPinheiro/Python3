@@ -16,7 +16,7 @@ elif (resp == 2):
     base = float(input('\nForneça a base do triângulo(cm): '))
     height = float(input('Agora, forneça a altura do triângulo(cm): '))
     area = (base*height)/2
-    print(f'\nA área desse triângulo vale: {area:,.2f}')
+    print(f'\nA área desse triângulo vale: {area:,.2f}cm²')
 
 else:
     print('Essa opção é inválida.')
