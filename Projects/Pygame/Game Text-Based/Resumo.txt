@@ -1,0 +1,12 @@
+*CARACTERÍSTICAS*
+- Jogo feito apenas com texto e imagens ilustrativas
+- Interações feitas com um personagem desconhecido
+- Voz narradora
+- Apresenta combate e atributos básicos, como: vida, sanidade e força de acordo com o item
+
+*MÉTODO*
+- Python puro (interações e geração de texto)
+- Pygame (Parte ilustrativa)
+
+*HISTÓRIA*
+	Você por acaso inicia um jogo em seu computador e encontra-se com alguém que parece estar do "outro lado", ela clama por ajoda e o que resta a você é ajudá-la, no meio do caminho serão encontrados inimigos os quais deverão ser superados, a fim de encontrar uma suposta saída. No caminho esse alguém lhe mostrará sua visão em determinados momentos, aumentando sua conexão com esse ser.
