@@ -13,7 +13,6 @@ for i in range(0, 5):
     array_numbers.append(num)
 
 array_numbers.extend(array_random)
-
 print("\nEsse é o seu array atual:")
 for a in sorted(array_numbers):
     print(a)

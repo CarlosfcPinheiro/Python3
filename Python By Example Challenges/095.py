@@ -11,6 +11,7 @@ while True:
         array_nums = array_nums/num
         print(f"\nEsse agora é o array: {array_nums.round(2)}")
         break
+    
     else:
         print("Número inválido. Tente novamente.")
         continue

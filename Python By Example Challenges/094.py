@@ -10,5 +10,6 @@ while True:
     if (numselec in array_nums):
         print(f"\nEssa é a possição desse número: {array_nums.index(numselec) + 1}")
         break
+    
     else:
         continue

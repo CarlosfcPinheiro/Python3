@@ -16,6 +16,7 @@ while True:
         array_newnumbers.append(resp)
         print(f"Esse é o seu novo array: {sorted(array_newnumbers)}")
         break
+    
     else:
         print("Esse número não pertenceu ao array.")
         continue

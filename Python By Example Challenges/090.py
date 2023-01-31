@@ -10,10 +10,8 @@ while (count != 5):
     if (num >= 10) and (num <= 20):
         count += 1
         array_nums.append(num)
-        
     elif (num > 20):
         print("Número muito alto.\n")
-
     else:
         print("Muito baixo.\n")
 
